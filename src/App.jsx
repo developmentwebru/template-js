@@ -8,7 +8,7 @@ const a = 1
 //   const lasnName = name;
 //   return lastName;
 // }
-const x = 200;
+const x = 200
 
 // foo('Denis')
 console.log(window);
