@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb"
+    ],
+    "rules": {
+        "no-console": "off",
+        "no-plusplus": "off",
+        "eol-last": "off",
+        "max-len": [
+            "error",
+            150,
+            {
+                "ignoreUrls": true
+            }
+        ],
+        "no-tabs": "off",
+        "no-alert": "warn",
+        "prefer-destructuring": "off",
+        "indent": [
+            "off",
+            "tab"
+        ],
+        "no-param-reassign": "off",
+    }
+    // "parser": "babel-eslint",
+    // "parserOptions": {
+    //     "sourceType": "module",
+    //     "allowImportExportEverywhere": true
+    // }
+}
