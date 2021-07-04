@@ -1,14 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
-const a = 1651
+const a = 165;
 
 // function foo(name) {
 //   const lasnName = name;
 //   return lastName;
 // }
-const x = 200
+const x = 200;
 
 // foo('Denis')
 console.log(window);
@@ -18,22 +17,9 @@ console.log('dsfad');
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          <code>src/App.js</code>
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        Ghbdtn
+      </h1>
     </div>
   );
 }
